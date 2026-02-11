@@ -1,0 +1,138 @@
+export const NavbarLogo = {
+  logo: "/logo.png",
+  siteName: "Mirage Detailing",
+};
+
+export const HeroContent = {
+  instagramLabel: "Instagram",
+  facebookLabel: "Facebook",
+  tagline: "FULL SERVICE AND EXCELLENT QUALITY",
+  title: "X Detailing",
+};
+
+export const Services = [
+  {
+    subtitle: "Paint Protection Film",
+    image: "/s1.png",
+    coverage: [
+      "Invisible clear protective film",
+      "Protects against stone chips and scratches",
+      "UV and weather resistance",
+      "Self-healing technology (minor scratches)",
+      "Preserves original paint and resale value",
+    ],
+  },
+  {
+    subtitle: "Paint Correction",
+    image: "/s2.png",
+    coverage: [
+      "Removes swirl marks and light scratches",
+      "Restores deep gloss and clarity",
+      "Eliminates oxidation and dullness",
+      "Multi-stage machine polishing",
+      "Enhances overall paint finish",
+    ],
+  },
+  {
+    subtitle: "Ceramic Coating",
+    image: "/s3.png",
+    coverage: [
+      "Long-lasting nano-ceramic protection",
+      "Hydrophobic water-repellent surface",
+      "UV and chemical resistance",
+      "Enhances paint gloss and depth",
+      "Easier cleaning and maintenance",
+    ],
+  },
+  {
+    subtitle: "Exterior Wash",
+    image: "/s4.png",
+    coverage: [
+      "Safe hand wash using premium products",
+      "Removes dirt, dust, and road grime",
+      "Gentle on paint and trims",
+      "Spot-free drying and finishing",
+      "Keeps vehicle looking fresh and clean",
+    ],
+  },
+];
+
+export const reviewsData = [
+  {
+    id: 1,
+    name: "SARAH L.",
+    initial: "S",
+    review:
+      "I had my interior detailing done at CarWash, and they did an incredible job! My car looks and smells like new again. The attention to detail and the level of cleanliness they achieved exceeded my expectations. Highly recommended!",
+    rating: 5,
+    service: "AUDI TT / Ceramic Coating",
+    image: "/im1.jpeg",
+  },
+  {
+    id: 2,
+    name: "JOHN M.",
+    initial: "J",
+    review:
+      "Outstanding service! The team was professional and thorough. My BMW looks brand new after their paint protection film installation. Worth every penny!",
+    rating: 5,
+    service: "BMW M3 / PPF Installation",
+    image: "/im2.jpeg",
+  },
+  {
+    id: 3,
+    name: "EMMA K.",
+    initial: "E",
+    review:
+      "Exceptional quality and attention to detail. They transformed my car completely. The ceramic coating has made maintenance so much easier. Highly recommend their services!",
+    rating: 5,
+    service: "MERCEDES C-CLASS / Ceramic Coating",
+    image: "/im3.jpeg",
+  },
+];
+
+export const appointmentContent = {
+  heading: "LET'S BOOK AN APPOINTMENT",
+  headingImage: "/im1.jpeg",
+
+  submitText: "Submit Message",
+
+  phones: [
+    "+44 7802 748300"
+  ],
+
+  officeTitle: "LONDON OFFICE",
+  officeAddress: [
+    "Unit 2 lady ann mills, Lady Ann Rd, ",
+    "Batley WF17 0PS, United Kingdom"
+  ],
+
+  hoursTitle: "OPENING HOURS",
+  hoursTime: "09:00 am - 06:00 pm",
+  hoursDays: "Monday - Friday"
+};
+
+export const footerContent = {
+  brand: {
+    title: "Hello, We Are DetailX",
+    description: "Our experienced technicians provide quality services for your car."
+  },
+
+  office: {
+    title: "Office",
+    address: "Unit 2 lady ann mills, Lady Ann Rd, Batley WF17 0PS, United Kingdom",
+    email: "office@-nottingham.co.uk",
+    phone: "+44 7802 748300"
+  },
+
+  socials: [
+    { name: "Facebook", href: "#", icon: "Facebook" },
+    { name: "Instagram", href: "#", icon: "Instagram" }
+  ],
+
+  bottomBar: {
+    copyright: "X Detailing © 2026. All rights reserved.",
+    poweredBy: { name: "Ansely", href: "https://www.ansely.co.uk" }
+  }
+};
+
+
