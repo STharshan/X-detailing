@@ -42,7 +42,7 @@ const PPFServices = ({ title = "OUR SERVICES", services = Services }) => {
                     {service.coverage.map((item, idx) => (
                       <li key={idx} className="flex items-start text-sm">
                         <CircleCheckBig className="w-5 h-5 text-primary mr-2 mt-0.5 shrink-0" />
-                        {item}
+                        <span className="text-gray-700 dark:text-gray-300">{item}</span>
                       </li>
                     ))}
                   </ul>
